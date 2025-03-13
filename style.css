@@ -1,0 +1,84 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    color: #ffffff;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #9500ffab;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.meters-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.meter-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 15px;
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.meter-container {
+    width: 90px;
+    height: 350px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.meter-bar {
+    width: 100%;
+    height: 0%;
+    transition: height 0.5s ease-in-out;
+    border-radius: 10px;
+}
+
+#dbBar {
+    background: linear-gradient(180deg, #ff1744, #ff8c00, #ffeb3b, #00e676);
+}
+
+#freqBar {
+    background: linear-gradient(180deg, #ff4081, #ff9100, #00e5ff);
+}
+
+.decibel-display, .frequency-display {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #dda3ffab;
+}
+
+.graph-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+canvas {
+    width: 450px;
+    height: 200px;
+    background: rgba(255, 255, 255, 0.07);
+    border-radius: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.15);
+}
+

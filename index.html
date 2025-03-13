@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Decibel & Frequency Meter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Real-Time Decibel & Frequency Meter</h1>
+
+    <div class="meters-container">
+        <div class="meter-wrapper">
+            <p class="decibel-display">🔊 10 dB</p>
+            <div class="meter-container">
+                <div class="meter-bar" id="dbBar"></div>
+            </div>
+        </div>
+
+        <div class="meter-wrapper">
+            <p class="frequency-display">🎶 Frequency: 0 Hz</p>
+            <div class="meter-container">
+                <div class="meter-bar" id="freqBar"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="graph-container">
+        <canvas id="dbGraph"></canvas>
+        <canvas id="freqGraph"></canvas>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
