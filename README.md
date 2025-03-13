@@ -21,10 +21,6 @@ This is a **Real-Time Decibel & Frequency Meter** that visually represents sound
 2. **Grant microphone access** when prompted.
 3. **Observe the meters and graphs** reacting to the sound around you.
 
-## 📷 UI Preview
-
-![Preview of Real-Time Decibel & Frequency Meter](preview.png)
-
 ## 🔧 Setup & Installation
 
 1. Clone the repository:
